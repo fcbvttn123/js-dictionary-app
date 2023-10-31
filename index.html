@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-    
+    <div class="box">
+        <form action="#" class="box__container1">
+            <input type="text" name="word-search" id="word-search" placeholder="Enter your word">
+            <button>Search</button>
+        </form>
+        <div class="box__container2">
+            <h1 class="word"></h1>
+            <p class="phonetic"></p>
+            <span class="material-symbols-outlined"></span>
+            <!-- Template comes here -->
+        </div>
+    </div>
+
+
+
+
+    <!-- Template of "word detail" box -->
+    <template class="word-details-template">
+        <div class="word-details">
+            <p class="word-type"></p>
+            <div class="definition-box">
+                <p class="definition"></p>
+            </div>
+        </div>
+    </template>
 </body>
 </html>
