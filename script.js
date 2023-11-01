@@ -65,9 +65,9 @@ function showContent(wordDetails) {
 /*
     Notes:
     
-    + Bug: it does not remove the old "word detail" box when search for a new word
-
     + Bug: Notification when not finding the right word 
+
+    + Add example section
 
     + RWD
 
