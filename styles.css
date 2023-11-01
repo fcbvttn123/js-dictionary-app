@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+
+
 body {
     background-color: #b5aaff;
     min-height: 100vh;
 
     display: grid;
     place-content: center;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 .box {
     background-color: white;
     padding: 4rem 3rem;
     border-radius: 1rem;
+    max-width: 1000px;
 }
 
 
@@ -21,15 +29,17 @@ body {
 .box__container1 {
     display: flex;
     align-items: center;
-    column-gap: 2rem;
+    justify-content: space-between;
     margin-bottom: 3rem;
+    width: 100%;
+    column-gap: 4rem;
 }
 
 .box__container1 input {
     background-color: white;
     padding: .5rem .2rem;
     border-bottom: 5px solid #b5aaff;
-    width: 70%;
+    width: 100%;
 }
 
 .box__container1 button {
@@ -59,11 +69,11 @@ body {
 
 .box__container2 .word {
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .box__container2 .phonetic {
-    margin: .2rem 0 2.3rem;
+    margin: .2rem 0 1.5rem;
 }
 
 .box__container2 .material-symbols-outlined {
@@ -72,16 +82,16 @@ body {
     top: 10px;
 }
 
-.box__container2 .word-details {
-    margin-bottom: 1rem;
-}
-
 .box__container2 .word-type {
-    font-weight: bolder;
+    font-weight: 500;
     margin-bottom: .2rem;
+    margin-top: 1.5rem;
+    color: rgb(196, 191, 191);
 }
 
 .box__container2 .definition {
-    padding-left: .5rem;
-    margin-bottom: .5rem;
+    margin-bottom: .9rem;
+    padding-left: 1rem;
+    border-left: 5px solid #b5aaff;
+    font-weight: 300;
 }
